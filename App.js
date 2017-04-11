@@ -40,6 +40,7 @@ export default class App extends React.Component {
         message = 'Recuerda! Tiene que estar entre 1 y 10';
       }
     }
+    this.setState({text:''})
 
     Alert.alert(message)
   }
